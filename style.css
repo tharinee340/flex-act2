@@ -1,0 +1,46 @@
+.flex-container {
+    display: flex;
+}
+.menu-flex-container {
+    display: flex;
+    flex-flow: column;
+ 
+}
+.content-flex-container {
+    flex-grow: 1;
+    padding: 20px;
+
+}
+.all-content {
+    display: flex;
+    flex-flow: row;
+}
+.bg-head {
+    background-color:lightpink;
+}
+.bg-menu {
+    background-color: white;
+}
+.bg-content {
+    background-color: white;
+}
+.flex-container>div {
+    background-color: lightcoral;
+    margin: 15px;
+    padding: 20px;
+    font-size: 20px;
+    color: white;
+}
+.menu-flex-container>div {
+    background-color: lightcoral;
+    margin: 20px;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    border: lightcoral;
+  
+
+}
+div {
+    border: 1px solid lightgrey;
+}
